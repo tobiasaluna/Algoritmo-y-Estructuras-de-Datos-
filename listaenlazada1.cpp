@@ -102,5 +102,34 @@ void List::print() {
 }
 
 int main() {
+
+    // Crear lista vacía
+    List lista;
+    cout << "¿Lista vacia? " << (lista.isEmpty() ? "Si" : "No") << endl;
+
+    // Insertar elementos
+    lista.push(10);
+    lista.push(20);
+    lista.push(30);
+
+    cout << "\nDespues de insertar 30, 20, 10:" << endl;
+    cout << "¿Lista vacia? " << (lista.isEmpty() ? "Si" : "No") << endl;
+
+    // Obtener cabeza
+    cout << "Head de la lista: " << lista.getHead() << endl;
+
+    // Imprimir lista completa
+    cout << "\nImpresion de la lista:" << endl;
+    lista.print();
+
+    // Obtener cola
+    cout << "\nImpresion de la cola (sin el primer nodo):" << endl;
+    List* tail = lista.getTail();
+    tail->print();
+
+    // Liberar memoria de la cola creada con new
+    delete tail;
+
+    cout << "\nFin del programa" << endl;
     return 0;
 }
