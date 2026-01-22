@@ -1,7 +1,16 @@
 #include <iostream>
 #include <vector>
-
 using namespace std;
+
+/*
+Idea principal: Similar a ordenar cartas en la mano
+Características:
+- Complejidad temporal: O(n²) en el peor caso, O(n) en el mejor caso
+- Complejidad espacial: O(1) - ordenamiento in-place
+- Estabilidad: Estable
+se toma el segundo elemento y se compara con el que tiene a la izquierda
+si es mas chico swap y sigo comparando si es que hay mas numeros a la izq 
+*/
 
 void insertionSort(vector<int>& arr) {
     int n = arr.size();
