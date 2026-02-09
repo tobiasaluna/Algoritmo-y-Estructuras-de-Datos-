@@ -1,4 +1,4 @@
-# 📚 Algoritmos y Estructuras de Datos
+# 📚 Algoritmos y Estructuras de Datos con C++
 
 Repositorio personal con implementaciones de **algoritmos clásicos** y **estructuras de datos**, con el objetivo de practicar lógica, mejorar habilidades de programación y estudio.
 
