@@ -53,6 +53,6 @@ Este repositorio incluye implementaciones y ejemplos organizados por categorías
 ---
 
 📌 Notas:
-~ Cada implementación intenta ser clara y didáctica.
-~ Algunos algoritmos incluyen análisis de complejidad y ejemplos.
-~ Este repositorio está en constante crecimiento.
+- Cada implementación intenta ser clara y didáctica.
+- Algunos algoritmos incluyen análisis de complejidad y ejemplos.
+- Este repositorio está en constante crecimiento.
