@@ -1,3 +1,7 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
 void heapify(std::vector<int>& arr, int n, int i) {
     int largest = i; // Inicializar el mayor como raíz
     int left = 2 * i + 1;
@@ -33,4 +37,22 @@ void heapSort(std::vector<int>& arr) {
         // Llamar heapify en el heap reducido
         heapify(arr, i, 0);
     }
+}
+
+int main() {
+    vector<int> arr = {12, 11, 13, 5, 6, 7};
+
+    cout << "Arreglo original:\n";
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << " ";
+    }
+
+    heapSort(arr);
+
+    cout << "\n\nArreglo ordenado con Heap Sort:\n";
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
 }
