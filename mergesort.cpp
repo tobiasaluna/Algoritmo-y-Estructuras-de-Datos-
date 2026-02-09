@@ -52,4 +52,22 @@ void mergeSort(vector<int>& arr, int left, int right) {
     merge(arr, left, mid, right);
 }
 
+int main() {
+    vector<int> arr = {38, 27, 43, 3, 9, 82, 10};
+
+    cout << "Arreglo original: ";
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << " ";
+    }
+
+    mergeSort(arr, 0, arr.size() - 1);
+
+    cout << "\nArreglo ordenado: ";
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << " ";
+    }
+
+    return 0;
+}
+
 
