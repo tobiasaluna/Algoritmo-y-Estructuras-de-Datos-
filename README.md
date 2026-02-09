@@ -1,6 +1,6 @@
 # 📚 Algoritmos y Estructuras de Datos
 
-Repositorio personal con implementaciones de **algoritmos clásicos** y **estructuras de datos**, con el objetivo de practicar lógica, mejorar habilidades de programación y preparar entrevistas técnicas.
+Repositorio personal con implementaciones de **algoritmos clásicos** y **estructuras de datos**, con el objetivo de practicar lógica, mejorar habilidades de programación y estudio.
 
 ---
 
