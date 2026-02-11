@@ -9,11 +9,7 @@ Código de Árboles:
 - clase arbol
 que hace?
 - crea un arbol insertando valores
-- lo muestra 
-y se ordena de 3 maneras distinta 
-- preorder
-- inorder
-- postorder
+- y se muestra inorder
 
 */
 
