@@ -1,6 +1,11 @@
 #include <iostream>
 using namespace std;
-
+/*
+codigo de arbol binario:
+- nodo tipo struct
+- implementacion de metodos insertar, inorder y buscar
+funcion main probando el arbol
+*/
 struct Nodo {
     int dato;
     Nodo* izq;
@@ -109,3 +114,4 @@ int main() {
 
     return 0;
 }
+
