@@ -5,7 +5,7 @@ using namespace std;
 
 /*
 Código de Árboles:
-- clase nodo 
+- cada nodo es una clase (IMPORTANTE) 
 - clase arbol
 que hace?
 - crea un arbol insertando valores
